@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Politecnico Indoamericano | catalogo de cursos</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img width="200px" src="./img/logo.svg" alt=""></a>
+        <div class="btn-registers">
+          <a class="mx-4 text-muted" href="#">¿Quiénes somos?</a>
+          <a class="mx-4 btn btn-primary" href="#">Iniciar sesión</a>
+          <a class="btn btn-secondary" href="#">Registrarse</a></div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">¡Ve un paso adelante y prepárate para los trabajos del futuro!</h1>
+          <h4>
+            Adquiere habilidades digitales para los trabajos que todavía no se han inventado... y asegúrate siempre tener trabajo.
+          </h4>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--
+    search bar
+  -->
+<section class="container mt-n25">
+  <div class="row">
+    <div class="col-lg-10 mx-auto">
+      <div class="masthead-search input-group bg-white">
+        <div class="input-group-btn">
+        </div><!-- /btn-group -->
+        <svg class="search-icon" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"></path>
+          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"></path>
+        </svg>
+        <input type="text" class="over-h border-none form-control form-control-lg" placeholder="¿Qué quieres aprender? Comienza buscando tu curso favorito...">
+        <button type="button" class="btn btn-default">Buscar</button>
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div>
+</section>
+
+<!-- card carousel -->
+
+<section class="container courses">
+  <div class="row">
+    <div class="col-md-12">
+
+        <section class="pt-5 pb-5">
+            <div class="container">
+            <div class="row">
+            <div class="col-6">
+               <h3 class="mb-3">Explore Courses more than <span class="small" id="counter"></span></h3>
+            </div>
+            <div class="col-6 text-right">
+               <a class="btn btn-primary mb-3 mr-1" href="#coursesCarousel" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="btn btn-primary mb-3 " href="#coursesCarousel" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+            <div class="col-12">
+               <div id="coursesCarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div id="courses" class="row">
+                          <!-- dyn content -->
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div id="courses1" class="row">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+    </div>
+  </div>
+
+</section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 h-100 text-center text-lg-left my-auto">
+          <img width="250px" src="./img/logo.svg" alt="">
+          <p>En Alianza con:</p>
+          <img width="250px" src="./img/logo-uni.png" alt="">
+          <p class="text-muted small mb-4 mb-lg-0">Institución de educación superior con personería jurídica, reconocida mediante resolución 09168 del 6 de Agosto de 1987, sujeta a inspección y vigilancia por parte del Ministerio de Educación Nacional.</p>
+        </div>
+        <div class="col-lg-4 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/airtable.browser.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
